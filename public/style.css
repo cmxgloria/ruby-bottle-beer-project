@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9ceea7;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: -webkit-linear-gradient(to top, lightgreen, darkgreen);
+  background: linear-gradient(to top, darkgreen, lightgreen);
+  height: 100vh;
+}
