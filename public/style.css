@@ -9,3 +9,7 @@ body {
   background: linear-gradient(to top, darkgreen, lightgreen);
   height: 100vh;
 }
+h1 {
+  animation-name: spin;
+  animation-duration: 2s;
+}

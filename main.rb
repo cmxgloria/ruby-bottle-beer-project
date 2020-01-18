@@ -11,11 +11,11 @@ get '/' do
 end
 
 
-get '/:num' do
+get '/:num' do #put : then instead of ?, go with / directly
   @num = params[:num].to_i
-  if @num == 0
-    puts "No Bottles of beer on the wall"
-  end
+  # if @num == 0
+  #   puts "No Bottles of beer on the wall"
+  # end
   erb :home
 end
 
